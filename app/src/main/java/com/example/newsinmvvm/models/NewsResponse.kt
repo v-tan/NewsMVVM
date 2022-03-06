@@ -1,4 +1,6 @@
-package com.example.newsinmvvm
+package com.example.newsinmvvm.models
+
+import com.example.newsinmvvm.models.Article
 
 data class NewsResponse(
     val articles: List<Article>,
